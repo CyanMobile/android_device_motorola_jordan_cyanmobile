@@ -43,7 +43,7 @@ jpeg.libskiahw.decoder.thresh=300000
 jpeg.libskiahw.encoder.enable=0
 
 # This is a high density device with more memory, so larger vm heaps for it.
-dalvik.vm.heapsize=48m
+dalvik.vm.heapsize=32m
 
 # Forbid format of these partitions in mount menu :
 ro.cwm.forbid_format=/misc,/devtree,/config,/boot,/recovery,/pds,/system
@@ -72,3 +72,13 @@ persist.sys.camera-mute=0
 # Scrolling cache 0:enable, 1:default enable, 2:default disable, 3:disable
 persist.sys.scrollingcache=2
 
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
