@@ -73,7 +73,7 @@ persist.sys.camera-mute=0
 persist.sys.scrollingcache=2
 
 # hardware info
-ro.device.gpu=PowerVR SGX530
+ro.device.gpu=PowerVR SGX 530
 
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
