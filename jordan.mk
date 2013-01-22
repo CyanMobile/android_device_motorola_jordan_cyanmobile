@@ -47,9 +47,5 @@ else
     PRODUCT_COPY_FILES += device/motorola/jordan/releasetools/custom_backup_list.txt:system/etc/custom_backup_list.txt
 endif
 
-# MB525 specfic apps
-PRODUCT_PACKAGES += \
-	JordanUpdater
-
 PRODUCT_NAME := generic_jordan
 PRODUCT_DEVICE := MB525
